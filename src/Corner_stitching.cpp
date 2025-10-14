@@ -1,3 +1,10 @@
+/*
+ * File:    main.cpp
+ * Author:  Alstin Lin
+ * Date:    2025-10-12
+ * Brief:   Implementation of the Corner Stitching data structure.
+ */
+
 #include "datatype.h"
 #include "parser_file.h"
 #include "Corner_stitching.h"
