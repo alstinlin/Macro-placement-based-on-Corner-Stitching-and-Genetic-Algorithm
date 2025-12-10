@@ -19,9 +19,7 @@ Example:
 
     mkdir result_output
 
---------------------------------------------------------------------
-2. Launch Docker Container
---------------------------------------------------------------------
+## 2. Launch Docker Container
 
 Use the following command to start a container:
 
@@ -47,9 +45,7 @@ Explanation:
     resulteplacer:release     : Docker image name
     /bin/bash                 : Starts a bash shell inside container
 
---------------------------------------------------------------------
-3. Running the Placement Tool
---------------------------------------------------------------------
+## 3. Running the Placement Tool
 
 After entering the container, run:
 
@@ -65,34 +61,26 @@ Notes:
     - Because you mounted the result folder, outputs will also
       appear on your host machine inside the folder you specified.
 
---------------------------------------------------------------------
-4. List Available Benchmarks
---------------------------------------------------------------------
+## 4. List Available Benchmarks
 
 Inside the container:
 
     ls /workspace/benchmarks
 
---------------------------------------------------------------------
-5. Exit the Container
---------------------------------------------------------------------
+## 5. Exit the Container
 
 Type:
 
     exit
 
---------------------------------------------------------------------
-6. Restarting an Existing Container
---------------------------------------------------------------------
+## 6. Restarting an Existing Container
 
 You do NOT need to create a new container every time.  
 To restart the existing NCKU-eplacer container:
 
     docker start -i NCKU-eplacer
 
---------------------------------------------------------------------
-7. Removing the Container (Optional)
---------------------------------------------------------------------
+## 7. Removing the Container (Optional)
 
 If you need to delete the container:
 
