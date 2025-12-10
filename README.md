@@ -1,20 +1,19 @@
-====================================================================
-                NCKU-ePlacer (CPU Version for RockyLinux 8)
-====================================================================
+# NCKU-ePlacer (CPU Version for RockyLinux 8)
 
-This package provides a Dockerized version of NCKU-ePlacer that 
-runs on RockyLinux 8 without requiring CUDA or GPU drivers. 
-All benchmarks and necessary runtime files are included inside 
-the Docker image.
+This package provides a Dockerized version of **NCKU-ePlacer**, designed to run on  
+**RockyLinux 8** without requiring CUDA or GPU drivers.  
+All benchmarks and necessary runtime files are included inside the Docker image.
 
-Users only need Docker installed on their machine.
+Users only need **Docker installed** on their machine to run the tool.
 
---------------------------------------------------------------------
-1. Create a Result Output Directory (Recommended)
---------------------------------------------------------------------
+---
 
-Before running the container, create a folder on your machine 
-to store the output result files.
+## 1. Create a Result Output Directory (Recommended)
+
+Before running the container, create a folder on your machine to store output files:
+
+```bash
+mkdir result_output
 
 Example:
 
