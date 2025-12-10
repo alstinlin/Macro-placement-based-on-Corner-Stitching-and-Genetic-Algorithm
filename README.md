@@ -11,7 +11,6 @@ Users only need Docker installed on their machine.
 
 --------------------------------------------------------------------
 1. Create a Result Output Directory (Recommended)
---------------------------------------------------------------------
 
 Before running the container, create a folder on your machine 
 to store the output result files.
@@ -22,7 +21,6 @@ Example:
 
 --------------------------------------------------------------------
 2. Launch Docker Container
---------------------------------------------------------------------
 
 Use the following command to start a container:
 
@@ -50,7 +48,6 @@ Explanation:
 
 --------------------------------------------------------------------
 3. Running the Placement Tool
---------------------------------------------------------------------
 
 After entering the container, run:
 
@@ -68,7 +65,6 @@ Notes:
 
 --------------------------------------------------------------------
 4. List Available Benchmarks
---------------------------------------------------------------------
 
 Inside the container:
 
@@ -76,7 +72,6 @@ Inside the container:
 
 --------------------------------------------------------------------
 5. Exit the Container
---------------------------------------------------------------------
 
 Type:
 
@@ -84,7 +79,6 @@ Type:
 
 --------------------------------------------------------------------
 6. Restarting an Existing Container
---------------------------------------------------------------------
 
 You do NOT need to create a new container every time.  
 To restart the existing NCKU-eplacer container:
@@ -93,7 +87,6 @@ To restart the existing NCKU-eplacer container:
 
 --------------------------------------------------------------------
 7. Removing the Container (Optional)
---------------------------------------------------------------------
 
 If you need to delete the container:
 
