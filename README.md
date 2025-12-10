@@ -1,6 +1,4 @@
-====================================================================
-                NCKU-ePlacer (CPU Version for RockyLinux 8)
-====================================================================
+# NCKU-ePlacer (CPU Version for RockyLinux 8)
 
 This package provides a Dockerized version of NCKU-ePlacer that
 runs on RockyLinux 8 without requiring CUDA or GPU drivers.
@@ -97,6 +95,5 @@ If you need to delete the container:
 If you have any questions or encounter issues, please contact the 
 tool developer or refer to project documentation.
 
-====================================================================
-                        End of README
-====================================================================
+
+# End of README
